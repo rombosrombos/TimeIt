@@ -1,0 +1,77 @@
+.DDCustomText{
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.DDContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.PreguntasContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.Preguntas{
+    font-family: sans-serif;
+    color: #353535;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.DDlineaA{
+    background-color: #A2277C;
+}
+
+.DDlineaB{
+    background-color: #A8A8A8;
+}
+
+.DDlinea1{
+    background-color: #EB689A;
+}
+
+.DDlinea2{
+    background-color: #187ABE;
+}
+
+.DDlinea3{
+    background-color:#AE9D27;
+}
+
+.DDlinea4{
+    background-color: #6FB7AE;
+}
+
+.DDlinea5{
+    background-color: #FDDF00;
+}
+
+.DDlinea6{
+    background-color:#FA1002;
+}
+
+.DDlinea7{
+    background-color:#FA6209;
+}
+
+.DDlinea8{
+    background-color :#1D8748;
+}
+
+.DDlinea9{
+    background-color:#5B2C2A;
+}
+
+.DDlinea12{
+    background-color:#B99E50;
+}
+
+.dropdown{
+    margin: 20px;
+
+}
