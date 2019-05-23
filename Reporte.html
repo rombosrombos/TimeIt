@@ -35,11 +35,12 @@
         </div>
       </nav>
 
+ <center>     
       <div class="PreguntasContainer">
-        <span class="CustomTextTitles"> ¿En qué estación te subes? </span>
+        <span class="CustomTextTitles"> REPORTE DE INCIDENCIAS </span>
       </div>
      
-    <div class="DDContainer">
+    <div class="ReporteContainer">
       <div class="dropdown">
         <button class="btn btn-secondary dropdown-toggle CustomTextContent" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Linea
@@ -80,58 +81,24 @@
           <a class="dropdown-item CustomTextContent" href="#">Tacubaya</a>
         </div>
       </div>
-    </div>
-
-
-    <div class="PreguntasContainer">
-        <span class="CustomTextTitles"> ¿En qué estación te bajas? </span>
-      </div>
-     
-    <div class="DDContainer">
+    
       <div class="dropdown">
         <button class="btn btn-secondary dropdown-toggle CustomTextContent" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Linea
+          Tipo de Incidente
         </button>
         <div class="dropdown-menu CustomTextContent" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item DDlineaA DDCustomText" href="#">Linea A</a>
-          <a class="dropdown-item DDlineaB DDCustomText" href="#">Linea B</a>
-          <a class="dropdown-item DDlinea1 DDCustomText" href="#">Linea 1</a>
-          <a class="dropdown-item DDlinea2 DDCustomText" href="#">Linea 2</a>
-          <a class="dropdown-item DDlinea3 DDCustomText" href="#">Linea 3</a>
-          <a class="dropdown-item DDlinea4 DDCustomText" href="#">Linea 4</a>
-          <a class="dropdown-item DDlinea5 DDCustomText" href="#">Linea 5</a>
-          <a class="dropdown-item DDlinea6 DDCustomText" href="#">Linea 6</a>
-          <a class="dropdown-item DDlinea7 DDCustomText" href="#">Linea 7</a>
-          <a class="dropdown-item DDlinea8 DDCustomText" href="#">Linea 8</a>
-          <a class="dropdown-item DDlinea9 DDCustomText" href="#">Linea 9</a>
-          <a class="dropdown-item DDlinea12 DDCustomText" href="#">Linea 12</a>
+          <a class="dropdown-item CustomTextContent" href="#">Accidente</a>
+          <a class="dropdown-item CustomTextContent" href="#">Marcha lenta</a>
+          <a class="dropdown-item CustomTextContent" href="#">Tren descompuesto</a>
+          <a class="dropdown-item CustomTextContent" href="#">Gran afluencia de usuarios</a>
+          <a class="dropdown-item CustomTextContent" href="#">Otro</a>
 
-        </div>
-      </div>
-
-      <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle CustomTextContent" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Estación
-      </button>
-        <div class="dropdown-menu CustomTextContent" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item CustomTextContent" href="#">Pantitlán</a>
-          <a class="dropdown-item CustomTextContent" href="#">Puebla</a>
-          <a class="dropdown-item CustomTextContent" href="#">Ciudad Deportiva</a>
-          <a class="dropdown-item CustomTextContent" href="#">Velódromo</a>
-          <a class="dropdown-item CustomTextContent" href="#">Mixiuhca</a>
-          <a class="dropdown-item CustomTextContent" href="#">Jamaica</a>
-          <a class="dropdown-item CustomTextContent" href="#">Chabacano</a>
-          <a class="dropdown-item CustomTextContent" href="#">Lázaro Cárdenas</a>
-          <a class="dropdown-item CustomTextContent" href="#">Centro Médico</a>
-          <a class="dropdown-item CustomTextContent" href="#">Chilpancingo</a>
-          <a class="dropdown-item CustomTextContent" href="#">Patriotismo</a>
-          <a class="dropdown-item CustomTextContent" href="#">Tacubaya</a>
         </div>
       </div>
     </div>
   
     <div class="PreguntasContainer">
-        <span class="CustomTextTitles"> ¿A qué hora viajas? </span>
+        <span class="CustomTextTitles"> Hora de la incidencia </span>
       </div>
      
     <div class="DDContainer">
@@ -186,13 +153,19 @@
       </div>
     </div>
 
-     <center>
-     <div class="btnContainer">
-       <button type="button" class="btn btn-primary">Ver Ruta →</button>
-       <br>
-       <br>
-     </center>
+      
+    <!-- Small modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-sm">Reportar</button>
+
+<div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      ...
     </div>
+  </div>
+</div>
+    
+    </center>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
