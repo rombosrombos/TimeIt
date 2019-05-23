@@ -9,28 +9,33 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="estilos.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,700,900&display=swap" rel="stylesheet">
-    <title>Time it!</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+
+    <title>Reporte de Incidencias | Time it!</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-        <a class="navbar-brand CustomNavBarTitle" href="#">Time it!</a>
+        <a class="navbar-brand CustomNavBarTitle" href="index.html">Time it!</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link CustomNavBarContent" href="#">Mi Ruta <span class="sr-only">(current)</span></a>
+              <a class="nav-link CustomNavBarContent" href="">Mi Ruta 
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link CustomNavBarContent" href="#">Horarios | Frecuencias</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link CustomNavBarContent" href="#">Mapa</a>
+            <li class="nav-item active">
+              <a class="nav-link CustomNavBarContent" href="mapa.html">Mapa</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link CustomNavBarContent" href="#" tabindex="-1" aria-disabled="true">Reporte de Incidencias</a>
-            </li>
+
+            <li class="nav-item active">
+                <a class="nav-link CustomNavBarContent" href="Reporte.html">Reporte de Incidencias</a> <span class="sr-only">(current)</span></a>
+              </li>
+
           </ul>
         </div>
       </nav>
@@ -96,11 +101,7 @@
         </div>
       </div>
     </div>
-  
-    <div class="PreguntasContainer">
-        <span class="CustomTextTitles"> Hora de la incidencia </span>
-      </div>
-     
+
     <div class="DDContainer">
       <div class="dropdown">
         <button class="btn btn-secondary dropdown-toggle CustomTextContent" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -158,9 +159,12 @@
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-sm">Reportar</button>
 
 <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-sm">
+  <div class="modal-dialog modal-sm CustomTextModal">
     <div class="modal-content">
-      ...
+        <i class="fas fa-check iconoOK"></i>
+      ¡Hemos recibido tu reporte!
+      <br>
+      Gracias por ayudar a otros usuarios.
     </div>
   </div>
 </div>
