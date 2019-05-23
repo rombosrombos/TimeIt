@@ -1,7 +1,35 @@
+.CustomNavBarTitle{
+    font-family: 'Nunito', sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.CustomNavBarContent{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.CustomTextContent{
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    color: #353535;
+    font-weight: 400;
+
+}
+
+.CustomTextTitles{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color: #353535;
+    font-weight: 900;
+}
+
 .DDCustomText{
-    font-family: sans-serif;
-    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
     color: white;
+    font-size: 15px;
 }
 
 .DDContainer{
@@ -10,17 +38,15 @@
     justify-content: center;
 }
 
+.ReporteContainer{
+    display: flex;
+    flex-direction: column;
+}
+
 .PreguntasContainer{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
-}
-
-.Preguntas{
-    font-family: sans-serif;
-    color: #353535;
-    font-size: 20px;
-    font-weight: bold;
+    margin-top: 20px;
 }
 
 .DDlineaA{
@@ -74,4 +100,31 @@
 .dropdown{
     margin: 20px;
 
+}
+
+.btnContainer{
+    margin-top: 30px;
+}
+
+
+.iconoOK{
+    margin-top: 20px;
+    font-size: 40px;
+    color: green;
+
+}
+
+.CustomTextModal{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.mapContainer{
+    display: flex;
+    margin: 60px;
+}
+
+.mapa{
+    width: 100vw;
 }
