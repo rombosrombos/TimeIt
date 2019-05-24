@@ -128,3 +128,16 @@
 .mapa{
     width: 100vw;
 }
+
+.btnGral{
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-weight: 400;
+    background-color: #00A878;
+    border: none;
+}
+
+.customBtn{
+    
+
+}
