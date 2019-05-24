@@ -1,6 +1,6 @@
 .container{
     /* border: solid 1px blue; */
-    height: 840px;
+    height: 430px;
 }
 
 .col-sm{
@@ -31,7 +31,7 @@
     /* border: solid 1px red; */
     display: flex;
     justify-content: center;    
-    padding: 20px;
+    padding: 10px;
 }
 
 .btnGral{

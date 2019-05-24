@@ -1,33 +1,57 @@
+body{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   /* justify-content: center; */
+}
+
+.navbar{
+   width: 100%;
+   margin-bottom: 10px;
+}
+
+
  .container_horarios{
-    border: solid 1px blue;
-    height: 840px;
-   
+   padding: 10px;
+    /* border: solid 1px blue; */
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
  }
 
  .estacion_inicio{
      /* border: solid 1px red; */
-     height: 64px;
+     height: 70px;
      width: 100%;
      display: flex;
      justify-content: space-between;
+     background-color: rgba(170, 170, 170, 0.20);
+     border-radius: 15px;
      
  }
 
  .estacion_final{
     /* border: solid 1px red; */
-    height: 64px;
+    height: 70px;
     width: 100%;
     display: flex;
     justify-content: space-between;
+    background-color: rgba(170, 170, 170, 0.20);
+      border-radius: 15px;
  }
+
 
  .tiempo{
     /* border: solid 1px red; */
-    height: 64px;
-    width: 100%;
+    height: 34px;
+    width: 90%;
+    margin-top: 5px;
+    margin-bottom: 5px;
     display: flex;
-    justify-content: space-between;
-    padding: 0px 40px;
+    justify-content: space-between;;
+    background-color: rgba(170, 170, 170, 0.10);
+     border-radius: 15px;
   }
 
  .img_container{
@@ -44,6 +68,11 @@
    border-radius: 50%;
  }
 
+ .btw{
+   height: 50%;
+   border-radius: 50%;  
+}
+
  .time_box{
    /* border: solid 1px yellow; */
    height: 100%;
@@ -52,25 +81,49 @@
    align-items: center;
  }
 
- .hrs{
-    border: solid 1px red;
+ .hrs_container{
+    /* border: solid 1px red; */
     height: 80%;
     width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
  }
 
- .mins{
-   border: solid 1px black;
+ .hrs{
+    font-size: 40px;
+ }
+
+ .hrs_btw{
+    font-size: 20px;
+ }
+
+
+ .mins_container{
+   /* border: solid 1px black; */
    height: 80%;
    width: 50%;
+   display: flex;
+   align-items: center;
 }
+
+.mins{
+   font-size: 40px;
+}
+
+.mins_btw{
+   font-size: 20px;
+}
+
 
  .people_box{
     /* border: solid 1px blue; */
     height: 100%;
     width: 60px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+
  }
 
  .mono{
@@ -83,4 +136,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+ }
+
+ .iniciar_viaje{
+    background-color: #00A878;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
  }
