@@ -1,0 +1,90 @@
+.container{
+    /* border: solid 1px blue; */
+    height: 840px;
+}
+
+.col-sm{
+    border: solid 1px rgb(206, 206, 206);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.estacionesimg{
+    height: 70%;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.CustomText{
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    color: #353535;
+    font-weight: 900;   
+}
+
+.footer{
+    /* border: solid 1px red; */
+    display: flex;
+    justify-content: center;    
+    padding: 20px;
+}
+
+.btnGral{
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-weight: 400;
+    background-color: #00A878;
+    border: none;
+ }
+
+.clasificacion{
+    display: flex;
+    justify-content: center;
+}
+
+.modal-content{
+    text-align: center;
+    padding: 20px;
+}
+
+.buttons{
+    padding: 20px;
+}
+
+
+.fa-meh{
+    color: #dc3545;
+}
+
+.fa-smile-wink{
+    color: #28a745;
+}
+
+
+/* Dani CSS */
+
+.CustomTextContent{
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    color: #353535;
+    font-weight: 400;
+ 
+ }
+ 
+ .CustomTextTitles{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color: #353535;
+    font-weight: 900;
+ }
+ 
+ .DDCustomText{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    color: white;
+ }
