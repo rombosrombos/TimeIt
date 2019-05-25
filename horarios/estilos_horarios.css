@@ -92,10 +92,12 @@ body{
 
  .hrs{
     font-size: 40px;
+    font-family: 'Nunito', sans-serif;
  }
 
  .hrs_btw{
     font-size: 20px;
+    font-family: 'Nunito', sans-serif;
  }
 
 
@@ -109,10 +111,12 @@ body{
 
 .mins{
    font-size: 40px;
+   font-family: 'Nunito', sans-serif;
 }
 
 .mins_btw{
    font-size: 20px;
+   font-family: 'Nunito', sans-serif;
 }
 
 
@@ -127,7 +131,7 @@ body{
  }
 
  .fas{
-    font-size: 30px
+    font-size: 30px;
  }
 
  .custom_footer{
@@ -140,5 +144,5 @@ body{
  .iniciar_viaje{
     background-color: #00A878;
     border: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Nunito', sans-serif;
  }
