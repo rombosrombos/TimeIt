@@ -25,6 +25,12 @@
     font-weight: 900;
 }
 
+.custombtncolor{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+}
+
 .DDCustomText{
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
@@ -99,7 +105,6 @@
 
 .dropdown{
     margin: 20px;
-
 }
 
 .btnContainer{

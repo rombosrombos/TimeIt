@@ -126,9 +126,8 @@ body{
 
  }
 
- .mono{
-    height: 60%;
-    width: 60%;
+ .fas{
+    font-size: 30px
  }
 
  .custom_footer{
